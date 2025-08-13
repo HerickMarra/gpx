@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class CarMain : MonoBehaviour
@@ -44,6 +45,10 @@ public class CarMain : MonoBehaviour
      bool inputBrake = false;
 
     private Rigidbody rb;
+
+
+    [Header("Configuracao da tracao")]
+    public TextMeshProUGUI text;
 
     void Start()
     {
@@ -182,6 +187,9 @@ public class CarMain : MonoBehaviour
 
         // Atualiza a vari�vel speed com a velocidade na dire��o forward
         speed = Vector3.Dot(rb.linearVelocity, transform.forward);
+        float km = speed * 3.6f;
+        int iMk = (int)km;
+        text.text = iMk.ToString() + " Km";
     }
 
     private Vector3 SpawnPos;

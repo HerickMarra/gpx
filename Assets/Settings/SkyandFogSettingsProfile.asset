@@ -190,8 +190,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 50
   meanFreePath:
-    m_OverrideState: 0
-    m_Value: 400
+    m_OverrideState: 1
+    m_Value: 149.47
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -309,16 +309,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b24b200358312b4fa1004e2431c2f1f, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: -0.26534778}
+    m_Value: {x: 1, y: 1, z: 1, w: 0.042372964}
   midtones:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: -0.28248578}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: -0.0353105}
+    m_Value: {x: 1, y: 1, z: 1, w: -0.021186426}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -346,7 +346,7 @@ MonoBehaviour:
   active: 0
   mode:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 0
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -361,10 +361,10 @@ MonoBehaviour:
     m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: -5
   limitMax:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 8.928571
   curveMap:
     m_OverrideState: 0
     m_Value:
